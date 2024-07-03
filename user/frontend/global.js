@@ -5,5 +5,5 @@ function requestCategories(){
     .then((data) => {
         console.log(data);
     })
-    .then((error)=> console.log(error));
+    .catch((error)=> console.log(error));
 }
